@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+button{
+    margin-bottom: 25px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    width: 60vw;
+    height: 80vh;
+    margin: 0;
+}
+
+.grid-item {
+    border: solid 1px #efefef;
+}
